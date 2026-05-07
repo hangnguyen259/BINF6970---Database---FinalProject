@@ -8,5 +8,3 @@ Download the raw data here:
 
 
 
-```text
-data/raw/
