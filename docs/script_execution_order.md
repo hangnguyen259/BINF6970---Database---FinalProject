@@ -10,7 +10,7 @@
 | 4 | `04_write_sql.py` | Maps cleaned data into database schema fields and generates SQL insert statements. | `02_load_cleaned_data.sql` |
 
 ### SQL files
-# Execute SQL files to build database
+#### Execute SQL files to build database
 | Order | Script | Description |
 |---|---|---|
 | 1 | `01_create_schema.sql` | Creates the database and tables. |
