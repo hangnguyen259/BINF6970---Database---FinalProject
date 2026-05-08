@@ -1,4 +1,4 @@
-# Project Title
+# BINF6970 - Database: Final Project
 
 ## Project Summary
 This project builds a relational database using TCGA hepatocellular carcinoma clinical and genomic data downloaded from cBioPortal. The database is designed so users can search by patient ID, sample ID, gene, mutation, or SNP identifier to retrieve clinical information, mutation details, and raw mRNA expression values
