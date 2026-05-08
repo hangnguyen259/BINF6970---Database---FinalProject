@@ -61,6 +61,6 @@ Example MySQL command:
 
 ```bash
 mysql -h 127.0.0.1 -P 3306 -u root -pinstructor
-
+```
 ## Documentation and Diagrams
 The write-up, data dictionary, script execution order, decisions and limitation can be found in the directory docs. Diagrams can be found in directory diagrams.
