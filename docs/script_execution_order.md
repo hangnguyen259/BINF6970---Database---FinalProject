@@ -9,8 +9,8 @@
 | 3 | `03_fix_mutation_from_expression.py` | Uses the cleaned expression file to fix remaining invalid mutation Entrez IDs where possible. | `mutation_mapped_fixed_final.tsv` |
 | 4 | `04_write_sql.py` | Maps cleaned data into database schema fields and generates SQL insert statements. | `02_load_cleaned_data.sql` |
 
-### SQL Scripts
-
+### SQL files
+# Execute SQL files to build database
 | Order | Script | Description |
 |---|---|---|
 | 1 | `01_create_schema.sql` | Creates the database and tables. |
