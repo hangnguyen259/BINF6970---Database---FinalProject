@@ -1,4 +1,4 @@
-# Cleaned Data
+# Raw Data
 
 The cleaned data files are stored on Figshare because they are too large for GitHub.
 
