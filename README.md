@@ -18,22 +18,26 @@ This project builds a relational database using TCGA hepatocellular carcinoma cl
 ```text
 .
 ├── data/
-│   ├── raw/                         # Original TCGA/cBioPortal data files
-│   └── cleaned/                     # Cleaned and mapped TSV files
+│   ├── raw/                    # Original TCGA/cBioPortal data files. Inside is the link to Figshare due to large data size
+│   └── cleaned/                # Cleaned and mapped TSV files. Inside is the link to Figshare due to large data size
+├── diagrams/
+│   ├── ER_diagram.png               # Entity-relationship diagram of the database
+│   ├── README.md                 
+│   ├── database_design.png          # Complete database design diagram
+│   └── loaded_database.png          # Screenshot of populated database tables
 ├── scripts/
 │   ├── 01_clean_data.py             # Cleans raw files and standardizes missing values
 │   ├── 02_map_genes.py              # Maps outdated or missing HUGO symbols and Entrez IDs
 │   ├── 03_fix_mutation_from_expression.py
 │   │                                # Fixes remaining mutation Entrez IDs using expression data
 │   └── 04_write_sql.py              # Generates SQL INSERT statements from cleaned data
-├── sql/
-│   ├── 01_create_schema.sql         # Creates database schema and tables
-│   ├── 02_load_cleaned_data.sql     # Loads cleaned data into the database
-│   └── database_dump.sql            # Optional database backup / recreation file
+├── sql/                            # All sql files are uploaded to figshare due to large data size. Link is found in README
+│   └── README.md    #contain link to figshare to download 01_create_schema.sql, 02_load_cleaned_data.sql, database_dump.sql
 ├── docs/
 │   └── Project_Documentation.pdf    # Final project documentation
 ├── README.md                        # Project overview and data dictionary
 └── .gitignore                       # Files and folders ignored by Git
+```
 
 ## Data Sources
 Data was from TCGA hepatocellular carcinoma clinical and genomic data downloaded from cBioPortal.
